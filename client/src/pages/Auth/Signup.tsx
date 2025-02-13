@@ -71,8 +71,8 @@ const Login = () => {
 
          
         <div className="pt-6 pb-8">
-          <button className="relative w-1/2 sm:w-1/2 shadow-md bg-blue-200 text-black rounded-2xl cursor-pointer flex items-center justify-center gap-3 px-4 py-2 sm:px-6 sm:py-3 mx-auto">
-            <FcGoogle className="w-5 h-5" />
+          <button className="relative w-1/2 sm:w-1/2 shadow-md bg-blue-200 text-black rounded-2xl cursor-pointer flex items-center justify-center gap-1 px-4 py-2 sm:px-6 sm:py-3 mx-auto">
+            <FcGoogle className="w-5 h-5 " />
             Signup With Google
           </button>
         </div>

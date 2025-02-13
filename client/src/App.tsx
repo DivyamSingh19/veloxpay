@@ -7,6 +7,7 @@ import Profile from './pages/Profile'
 import Payment from './pages/Payment'
 import Home from './pages/Home'
 import { useEffect } from 'react'
+import About from './pages/About'
 function App() {
   
   
@@ -19,6 +20,7 @@ function App() {
         <Route path='/signup' element={<Signup/>}></Route>
         <Route path='/payment' element={<Payment/>}></Route>
         <Route path='/profile' element={<Profile/>}></Route>
+        <Route path='/about' element={<About/>}></Route>
          <Route path='*' element={<NotFound/>}></Route>
       </Routes>
     </div>
