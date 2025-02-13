@@ -16,7 +16,7 @@ const Login = () => {
     <div className="absolute top-0 left-0 w-screen h-screen bg-black flex items-center justify-center p-4">
       <div className="bg-white w-full sm:w-2/3 md:w-1/3 text-center rounded-xl shadow-2xl p-6 sm:p-8">
         <h1 className="text-black text-2xl sm:text-3xl font-bold mb-2">Welcome to VeloxPay</h1>
-        <p className="text-black font-medium pt-3 sm:pt-5">Login to Pay!</p>
+        <p className="text-black font-medium pt-3 sm:pt-5">Signup to Pay!</p>
 
         <form action="#" className="bg-white flex flex-col pt-5 sm:pt-7">
         <div className="relative w-full">
@@ -70,8 +70,8 @@ const Login = () => {
         </div>
 
          
-        <div className=" pt-6 pb-8">
-          <button className="relative w-full sm:w-1/2 shadow-md bg-blue-200 text-black rounded-2xl cursor-pointer flex items-center justify-center gap-3 px-4 py-2 sm:px-6 sm:py-3 mx-auto">
+        <div className="pt-6 pb-8">
+          <button className="relative w-1/2 sm:w-1/2 shadow-md bg-blue-200 text-black rounded-2xl cursor-pointer flex items-center justify-center gap-3 px-4 py-2 sm:px-6 sm:py-3 mx-auto">
             <FcGoogle className="w-5 h-5" />
             Signup With Google
           </button>
