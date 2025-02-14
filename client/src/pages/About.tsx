@@ -1,5 +1,4 @@
-import React from "react";
-
+ 
 const About = () => {
   return (
     <div className="absolute w-screen h-screen top-0 left-0 bg-black text-white flex flex-col items-center justify-center px-6 py-8 overflow-auto">
