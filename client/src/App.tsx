@@ -8,12 +8,13 @@ import Payment from './pages/Payment'
 import Home from './pages/Home'
 import { useEffect } from 'react'
 import About from './pages/About'
+import Navbar from './components/Navbar'
 function App() {
   
   
   return (
     <div>
-       
+      <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/login' element={<Login/>}></Route>

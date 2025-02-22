@@ -13,7 +13,7 @@ const Login = () => {
   }, []);
 
   return (
-    <div className="absolute top-0 left-0 w-screen h-screen bg-black flex items-center justify-center p-4">
+    <div className="absolute top-0 left-0 w-screen h-screen bg-gradient-to-br from-white via-blue-900 to-black flex items-center justify-center p-4">
       <div className="bg-white w-full sm:w-2/3 md:w-1/3 text-center rounded-xl shadow-2xl p-6 sm:p-8">
         <h1 className="text-black text-2xl sm:text-3xl font-bold mb-2">Welcome to VeloxPay</h1>
         <p className="text-black font-medium pt-3 sm:pt-5">Signup to Pay!</p>
