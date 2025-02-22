@@ -1,11 +1,11 @@
 import express from "express"
 import { Request , Response } from "express";
 import 'dotenv/config'
-
+import connectDB from "./config/mongodb";
 
 const app = express();
 const port  = process.env.PORT||4000
- 
+connectDB();
 
 
 
