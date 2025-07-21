@@ -26,7 +26,7 @@
     "@neondatabase/serverless": "^1.0.1",
     "@prisma/client": "^6.9.0",
     "@tailwindcss/postcss": "^4.0.12",
-    "drizzle-kit": "^0.31.4",
+    "drizzle-kit": "^0.18.1",
     "hono": "^4.8.5",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.0.12"
